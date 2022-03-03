@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    margin-top: 25px;
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size: 30px;
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+	margin: 0 80px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0px 14px;
+    font-family: var(--font2);
+    transition: all 0.5s ease-in-out;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left ul li a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: 0.5s;
+}
+.nav-left ul li a:hover::after{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+.content{
+    height: 100%;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}  
+.content::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+}
+.content-left h1{
+    margin-bottom: 20px;
+}
+.content-left p{
+    margin: 10px 0;
+    color: #9100ff;
+    font-size: 14.9px;
+}
+.content-right img{
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+    z-index: 1;
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-posts{
+    padding: 18px;
+    background-color: rgb(248, 239, 239, 0.5);
+    margin-top: 23px;
+    position: relative;
+}
+.home-post{
+    display: flex;
+    margin: 25px;
+}  
+.home-post img{
+    width: 300px;
+}  
+.home-post-content{
+    align-self: center;
+    padding: 25px;
+}  
+.home-post-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+}
+.footer a, p{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font4);
+}
+.form-box input, textarea {
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 5px;
+}
+/* .year-box{
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    background-color: red;
+    right: 100px;
+    top: 100px;
+} */

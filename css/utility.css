@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+
+:root{
+    --main-bg-color: rgb(0, 0, 0);
+    --font1: "Baloo Bhaina 2", cursive;
+    --font2: "Roboto", sans-serif;
+    --font3: 'Lora', serif;
+    --font4: 'Open Sans';
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.font4{
+    font-family: var(--font4);
+}
+.center{
+    text-align: center;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.m-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.btn{
+    padding: 3px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font4);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-control{
+    padding: 0px 5px;
+    font-size: 16px;
+    border: 2px solid rgb(70, 60, 60);
+    border-radius: 3px;
+    margin: 0px 15px;
+    font-family: var(--font1);
+}
+.form-box input, textarea{
+    width: 52w;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 10px 6px;
+    margin: 7px 0;
+    border: 2px solid grey;
+    border-radius: 5x;
+}
+.contact-us{
+    margin-left: 23px;
+    margin-right: 23px;
+}
